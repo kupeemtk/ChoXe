@@ -1,0 +1,30 @@
+﻿
+@model PagedList.IPagedList<ChoXe.Models.ShowXeMay>
+@using PagedList.Mvc
+    <div class="row row-product">
+@foreach (var item in Model)
+{
+        <div class="col-md-15 col-product">
+            <a href="@Url.Action("ProductDetail", "Product", new { id = item.IDXe})">
+                <img class="image-produce" src="~/Assets/client/image/car-product.png">
+                <div class="info-produce">
+                    <h4>@item.tenXe</h4>
+                    <p>@item.gia</p>
+                    <a  href="">@item.tenNguoiDang</a>
+                </div>
+            </a>
+        </div>
+}
+    </div>
+<!-- Bắt đầu phân trang -->
+<div class="paging">
+     Trang @(Model.PageCount<Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+    @Html.PagedListPager(Model, page => Url.Action("showXeMay", new {page }),
+    PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(new AjaxOptions()
+    {
+        HttpMethod ="GET", UpdateTargetId="product_area"
+    }
+    )
+)
+    </div>
+<!-- Kết thúc phân trang -->

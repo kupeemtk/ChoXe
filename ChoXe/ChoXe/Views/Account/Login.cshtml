@@ -1,0 +1,73 @@
+﻿@using ChoXe.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Đăng nhập";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Đăng nhập</title>
+    <link href="~/Assets/client/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Assets/client/css/form.css" rel="stylesheet" />
+    <script src="~/scripts/jquery-1.10.2.min.js"></script>
+    <style>
+        .form {
+            top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo wrap">
+        <a href="@Url.Action("Index","Home")"><img src="~/Assets/client/image/logo.png" width="142" height="33" /></a>
+    </div>
+    <div class="login-content">
+        <div class="login-bg">
+            @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "form", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    <label for="username" class="form-label form-label--required">
+                        Email:
+                    </label>
+                    <div class="form-addon" data-states-for="username">
+                        <div class="form-addon__addon">
+                            <span class="fa fa-user"></span>
+                        </div>
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-input" })
+                        <span class="form-addon__icon icon-valid"></span> <span class="form-addon__icon icon-invalid"></span>
+                    </div>
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "user-message" })
+                </div>
+
+
+                <div class="form-group">
+                    <label for="password" class="form-label form-label--required">
+                        Mật khẩu :
+                    </label>
+                    <div class="form-addon" data-states-for="password">
+                        <div class="form-addon__addon">
+                            <span class="fa fa-key"></span>
+                        </div>
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-input" })
+                        <span class="form-addon__icon icon-valid"></span>
+                        <span class="form-addon__icon icon-invalid"></span>
+                    </div>
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "pass-message" })
+                </div>
+                <div class="rememberme">
+                    @Html.CheckBoxFor(m => m.RememberMe, new { @checked = "checked" })
+                    <span>Ghi nhớ mật khẩu</span>
+                </div>
+                <div class="form-footer">
+                    <div class="forgot-pass">
+                        <a href="@Url.Action("ForgotPass","Account")">Quên mật khẩu</a>
+                        <a href="@Url.Action("Register","Account")">Đăng ký</a>
+                    </div>
+                    <input type="submit" class="button" value="Đăng nhập">
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

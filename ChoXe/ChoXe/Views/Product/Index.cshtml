@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/Assets/client/css/car.css" />
+}
+@model PagedList.IPagedList<ChoXe.Models.ShowXeMay>
+@using PagedList.Mvc
+<!-- Car banner -->
+<div class="car-banner">
+    <img src="~/Assets/client/image/car-banner.png">
+</div>
+<!-- Kết thúc Car banner -->
+<!-- Car category -->
+<div class="car-category">
+    <ul class="parent-sub-car-category">
+        <li class="location">
+            <a id="location" onclick="show()">LOCATION <i class="fa fa-angle-down"></i></a>
+            <ul id="sub-location" class="sub-location cate">
+                <li>Thủ đức</li>
+                <li>Quận 1</li>
+                <li>Quận2</li>
+                <li>Quận 3</li>
+                <li>Quận 4</li>
+                <li>Quận 5</li>
+            </ul>
+        </li>
+        <li class="seats">
+            <a id="seats" onclick="show1()">SEATS <i class="fa fa-angle-down"></i></a>
+            <ul id="sub-seats" class="cate">
+                <li>4</li>
+                <li>7</li>
+                <li>10</li>
+                <li>12</li>
+            </ul>
+        </li>
+        <li class="brands">
+            <a id="brands" onclick="show2()">BRAND <i class="fa fa-angle-down"></i></a>
+            <ul id="sub-brands" class="cate">
+                <li>Ford</li>
+                <li>Mercerdes</li>
+                <li>Bently</li>
+                <li>Lamborgini</li>
+                <li>Audi</li>
+                <li>Ferrari</li>
+            </ul>
+        </li>
+        <li class="price">
+            <a id="price" onclick="show3()">PRICE <i class="fa fa-angle-down"></i></a>
+            <ul id="sub-price" class="cate">
+                <li>500M-600M</li>
+                <li>600M-700M</li>
+                <li>700M-800M</li>
+                <li>800M-900M</li>
+                <li>900M-1T</li>
+                <li>1T-2T</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<!-- Kết thúc car category -->
+<!-- Bắt đầu sản phẩm -->
+<div class="product">
+    <!-- Hàng 1 -->
+    @*@Html.Action("showXeMay", "Product")*@
+    @{ Html.RenderAction("showXeMay", "Product", new { page = 1 });}
+    </div>
+<!-- Kết thúc sản phẩm -->
+<!-- Bắt đầu phân trang -->
+@*<div class="paging">
+    <div class="paging-number">
+        <span class="number"><a href="" target="_self"><i class="fa fa-angle-left"></i></a></span>
+        <span class="number"><a href="" target="_self">1</a></span>
+        <span class="number"><a href="" target="_self">2</a></span>
+        <span class="number"><a href="" target="_self">3</a></span>
+        <span class="number"><a href="" target="_self"><i class="fa fa-angle-right"></i></a></span>
+    </div>
+</div>*@
+<!-- Kết thúc phân trang -->

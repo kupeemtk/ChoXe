@@ -1,0 +1,142 @@
+﻿
+@{
+    ViewBag.Title = "Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/Assets/client/css/checkCart.css" />
+}
+<div id="checkout">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="check_header">
+                    <img src="~/Assets/client/checkout_logo_1.png">
+                    <ul class="check_header_ul">
+                        <li>
+                            <span>Customer information</span>
+                            <i class="fa fa-angle-right" style="color: #999999"></i>
+                        </li>
+                        <li>
+                            <span style="color: #999999">Shipping method</span>
+                            <i class="fa fa-angle-right" style="color: #999999"></i>
+                        </li>
+                        <li>
+                            <span style="color: #999999">Payment methtod</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="check_body">
+                    <h2 style="font-family: Helvetica Neue, sans-serif;
+                            font-size: 1.28571em">
+                        Customer information
+                    </h2>
+                    <form>
+                        <div class="form-group form_one">
+                            <input id="email" class="form-control" placeholder="Email" type="email" />
+                            <div class="ckeck_box">
+                                <input class="input-checkbox" type="checkbox" value="1">
+                            </div>
+                            <span>Subscribe to our newsletter</span>
+
+                        </div>
+                    </form>
+                    <h2 style="font-family: Helvetica Neue, sans-serif;
+                            font-size: 1.28571em">
+                        Shipping address
+                    </h2>
+                    <form>
+                        <div class="form-group form_two">
+                            <div class="line line-one">
+                                <input id="firtname" class="form-control" type="text" placeholder="Firt name">
+                                <input id="lastname" class="form-control" type="text" placeholder="Last name">
+                            </div>
+                            <div class="line line-two">
+                                <input id="company" class="form-control" type="text" placeholder="Company (optional)">
+                            </div>
+                            <div class="line line-three">
+                                <input id="address" class="form-control" type="text" placeholder="Address">
+                                <input id="optional" class="form-control" type="text" placeholder="Apt, suite, etc. (optonal)">
+                            </div>
+                            <div class="line line-four">
+                                <input id="city" class="form-control" type="text" placeholder="City">
+                            </div>
+                            <div class="line line-fire">
+                                <input id="country" class="form-control" type="text" placeholder="Country">
+                                <input id="postal" class="form-control" type="text" placeholder="Postal code">
+                            </div>
+                            <div class="line line-six">
+                                <input id="phone" class="form-control" type="number" placeholder="Phone (optional)">
+                            </div>
+                            <div class="ckeck_box">
+                                <input class="input-checkbox" type="checkbox" value="1">
+                            </div>
+                            <span>Save this information for next time</span>
+                        </div>
+                        <div class="btn-submit">
+                            <button class="btn-btn">
+                                Continue to shipping method
+                            </button>
+                        </div>
+                    </form>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="check-footer">
+                    <hr>
+                    <div class="policy">
+                        <span class="refund">Refund policy</span>
+                        <span class="privacy">Privacy policy</span>
+                        <span class="term">Terms of service</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 checkout-right">
+                <div class="check-right">
+                    <div class="right-one">
+                        <div class="picture-product">
+                            <div class="picture-right">
+                                <img src="~/Assets/client/image/">
+                            </div>
+                            <span>1</span>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="middle">
+                            <strong> Cup, Revy, large</strong>
+                            <i>Dark Blue</i>
+                        </div>
+                        <div class="right-right">
+                            <span>159,00 kr</span>
+                        </div>
+                    </div>
+                    <div class="right-two">
+                        <hr>
+                        <div class="form-group form-right">
+                            <input class="form-control" type="text" placeholder="Discount">
+                            <button class="btn-submit-right" type="submit">Apply</button>
+                        </div>
+                    </div>
+                    <div class="right-three">
+                        <hr>
+                        <div class="value-one">
+                            <span>Subtotal</span>
+                            <span>159,00 kr</span>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="value-one">
+                            <span>Shipping</span>
+                            <span>---</span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="right-four">
+                        <hr>
+                        <div class="total">
+                            <span>Total</span>
+                            <span><i class="dkk">DKK</i>159,00 kr</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

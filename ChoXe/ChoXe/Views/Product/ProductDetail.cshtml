@@ -1,0 +1,212 @@
+﻿@{
+    ViewBag.Title = "ProductDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/Assets/client/css/productdetail.css">
+    <link rel="stylesheet" href="~/Assets/client/css/car.css">
+}
+@using ChoXe.Models
+@model IEnumerable<ChoXe.Models.ChiTietXe>
+<!-- main start -->
+<main class="main-content" role="main">
+    <article class="product">
+        <div class="image-area">
+            <div class="inner-image">
+                <img class="specs-image" src="~/Assets/client/image/car-product.png" />
+                <img class="main-image" src="~/Assets/client/image/car-product.png" />
+            </div>
+            <div class="loader" style="opacity: 0"></div>
+        </div>
+        <div class="heading-area">
+            <h2 class="name">
+                @*@Html.DisplayFor()*@
+            <span>|</span>
+            <span class="price">Price: 100000$</span>
+        </div>
+        <div class="bar"></div>
+        <div class="info-area">
+            <div class="info-item">
+                <span class="fa fa-check-circle"></span>
+                <span>Status: </span>
+                <span><strong> Cũ</strong></span>
+            </div>
+            <div class="info-item">
+                <span class="fa fa-road"></span>
+                <span>Km: </span>
+                <span><strong> 14000</strong></span>
+            </div>
+            <div class="info-item">
+                <span class="fa fa-rocket"></span>
+                <span>Gear: </span>
+                <span><strong> Tự động</strong></span>
+            </div>
+            <div class="info-item">
+                <span class="fa fa-ship"></span>
+                <span>Fuel: </span>
+                <span><strong> Xăng</strong></span>
+            </div>
+            <div class="info-item">
+                <span class="fa fa-users"></span>
+                <span>Seller: </span>
+                <span><strong> Đại lý</strong></span>
+            </div>
+            <div class="info-item">
+                <span class="fa fa-car"></span>
+                <span>Vehicles: </span>
+                <span><strong> Sevan</strong></span>
+            </div>
+            <div class="info-item">
+                <span class="fa fa-calendar"></span>
+                <span>Year of manufacture: </span>
+                <span><strong> 2014</strong></span>
+            </div>
+            <div class="info-item">
+                <span class="fa fa-cogs"></span>
+                <span>Moving: </span>
+                <span><strong> FWD Cầu trước</strong></span>
+            </div>
+            <div class="info-item">
+                <span class="fa fa-paint-brush"></span>
+                <span>Color: </span>
+                <span><strong> Trắng xám</strong></span>
+            </div>
+            <div class="info-item">
+                <span class="fa fa-globe"></span>
+                <span>Made in: </span>
+                <span><strong> Trong nước</strong></span>
+            </div>
+
+        </div>
+        <div class="cart-functions">
+            <form class="add-to-cart-form">
+                <div class="quantity-input num-input-wrapper">
+                    <button type="button" class="cart-adjust-btn minus deactivated">
+                        <span class="visuallyhidden">Subtract quantity</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="2" viewBox="0 0 10 2">
+                            <path d="M0 0h10v2H0z"></path>
+                        </svg>
+                    </button>
+                    <input id="quantity" name="quantity" type="text" class="cart-quantity-input" value="1" min="1" pattern="[0-9]*">
+                    <button type="button" class="cart-adjust-btn plus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                            <path d="M10 4H6V0H4v4H0v2h4v4h2V6h4z"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="add-to-cart-wrapper">
+                    <button type="submit" name="add" id="AddToCart" class="add-to-cart-btn">Add to cart</button>
+                </div>
+
+                <div class="bar"></div>
+
+                <div class="describe">
+                    <h2>DESCRIBE</h2>
+                    <pre>
+                                HYUNDAI ĐÔ THÀNH
+                                Công ty Hyundai đô thành xin giới thiệu tới quý khách hàng dòng sản phẩm hot hiện nay trên thị trường xe tải, phân khúc tải nhẹ và trung.
+                                Đại Lý 3s Cấp 1 Hyundai Vũ Hùng.
+                                
+                                Nhãn hiệu xe: Xe Tải Đô Thành IZ49
+                                Kích thước thùng chở hàng: 4210x1810x670/1775 mm
+                                Khối lượng hàng cho phép chở: 2300 kg
+                                
+                                Hỗ trợ mua bán xe trả góp:
+                                -	Lãi suất thấp thị trường
+                                -	Hỗ trợ vay tối đa có thể trên giá trị xe.
+                                -	Thủ tục đơn giản, không mất chi phí.
+                                
+                                Cam kết hàng chính hãng, đóng thùng chuyên nghiệp thương hiệu Hyundai, hỗ trợ khách hàng tối đa có thể.
+                                Chính sách bảo xe: xe được bảo hành 2 năm/100km
+                                Quà tặng: Bộ đồ nghề tiêu chuẩn của hãng Hyundai.
+                            </pre>
+                </div>
+
+                <div class="bar"></div>
+
+                <div class="contact">
+                    <h2 class="tittle-contact">CONTACT</h2>
+                    <p><i class="fa fa-phone"></i> 0906100446</p>
+                    <p><i class="fa fa-map-marker"></i> KTX Khu B, University of nation, An Hòa, Dĩ Đông</p>
+
+                </div>
+
+                <div class="bar"></div>
+
+                <div class="relation">
+                    <h2 class="relation-tittle">RELATION</h2>
+                    <div class="row">
+                        <div class="col-md-15 col-product">
+                            <a>
+                                <img class="image-produce" src="~/Assets/client/image/car-product.png">
+                                <div class="info-produce">
+                                    <h4>Name car</h4>
+                                    <p>100000$</p>
+                                    <a>User name</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-15 col-product">
+                            <a>
+                                <img class="image-produce" src="~/Assets/client/image/car-product.png">
+                                <div class="info-produce">
+                                    <h4>Name car</h4>
+                                    <p>100000$</p>
+                                    <a>User name</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-15 col-product">
+                            <a>
+                                <img class="image-produce" src="~/Assets/client/image/car-product.png">
+                                <div class="info-produce">
+                                    <h4>Name car</h4>
+                                    <p>100000$</p>
+                                    <a>User name</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-15 col-product">
+                            <a>
+                                <img class="image-produce" src="~/Assets/client/image/car-product.png">
+                                <div class="info-produce">
+                                    <h4>Name car</h4>
+                                    <p>100000$</p>
+                                    <a>User name</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-15 col-product">
+                            <a>
+                                <img class="image-produce" src="~/Assets/client/image/car-product.png">
+                                <div class="info-produce">
+                                    <h4>Name car</h4>
+                                    <p>100000$</p>
+                                    <a>User name</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="share-area">
+                    <span class="label">Share product</span>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.helbak.com/products/butterbox-ro-blue" class="share-link facebook">
+                        <span class="visuallyhidden">Share on Facebook</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="9.4" height="20" viewBox="0 0 9.4 20"><path fill="#7A7B7B" d="M6.2 20H2.1V10H0V6.6h2.1V4.5C2.1 1.7 3.2 0 6.6 0h2.8v3.4H7.6c-1.3 0-1.4.5-1.4 1.4v1.7h3.1L9 10H6.2v10z"></path></svg>
+                    </a>
+                    <a href="https://twitter.com/home?status=https://www.helbak.com/products/butterbox-ro-blue" class="share-link twitter">
+                        <span class="visuallyhidden">Share on Twitter</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20.9" height="17" viewBox="0 0 20.9 17"><path fill="#7A7B7B" d="M20.9 2c-.8.3-1.6.6-2.5.7.9-.5 1.6-1.4 1.9-2.4-.8.5-1.7.8-2.7 1C16.8.5 15.7 0 14.5 0c-2.4 0-4.3 1.9-4.3 4.3 0 .3 0 .7.1 1C6.7 5.1 3.6 3.4 1.5.8c-.4.6-.6 1.4-.6 2.1 0 1.5.8 2.8 1.9 3.6-.7 0-1.4-.2-2-.5v.1c0 2.1 1.5 3.8 3.4 4.2-.4.1-.7.2-1.1.2-.3 0-.5 0-.8-.1.5 1.7 2.1 2.9 4 3-1.4 1-3.3 1.7-5.3 1.7-.3 0-.7 0-1-.1 1.9 1.3 4.2 2 6.6 2 7.9 0 12.2-6.5 12.2-12.2v-.6c.8-.6 1.5-1.3 2.1-2.2z"></path></svg>
+                    </a>
+                    <a href="https://pinterest.com/pin/create/button/?url=https://www.helbak.com/products/butterbox-ro-blue&amp;media=//cdn.shopify.com/s/files/1/0702/6935/products/RO28-01_1024x1024.png?v=1454236056&amp;description=" class="share-link pintrest">
+                        <span class="visuallyhidden">Share on Pintrest</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16.2" height="21" viewBox="0 0 16.2 21"><path fill="#7A7B7B" d="M8.6 0C2.9 0 0 4.1 0 7.5c0 2.1.8 3.9 2.5 4.6.3.1.5 0 .6-.3.1-.2.2-.7.2-1 .1-.3 0-.4-.2-.7-.4-.5-.7-1.2-.7-2.3 0-3 2.3-5.8 5.9-5.8 3.2 0 5 2 5 4.6 0 3.5-1.5 6.4-3.8 6.4-1.3 0-2.2-1-1.9-2.3.4-1.5 1.1-3.2 1.1-4.3 0-1-.5-1.8-1.6-1.8-1.4.1-2.4 1.4-2.4 3.2 0 1.1.4 1.9.4 1.9s-1.3 5.6-1.6 6.6c-.5 2-.1 4.3 0 4.6 0 .1.2.2.3.1.1-.2 1.6-2.1 2.2-4 .1-.5.8-3.3.8-3.3.4.8 1.6 1.5 2.9 1.5 3.9 0 6.5-3.5 6.5-8.3.1-3.6-3-6.9-7.6-6.9z"></path></svg>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </article>
+</main>
+<!-- main end -->

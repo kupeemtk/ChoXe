@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+.contact h2{
+	text-align: center;
+	font-weight:bold;
+	color:black;
+	}
+.phone{
+	margin-left: 200px;
+	margin-top: 50px;
+	font-weight:bold;
+	font-size:20px;}
+.phone a{
+	margin-left:50px;
+	}
+.email{
+	margin-left: 200px;
+	font-weight:bold;
+	font-size:20px;
+	margin-top:10px;
+	}
+.email a{
+	margin-left: 95px;}
+.address{
+	margin-left: 200px;
+	font-weight:bold;
+	font-size:20px;
+	margin-top:10px;
+	}
+.address a{
+	margin-left:80px;
+	}
+.vitri{
+	margin-left: 200px;
+	font-weight:bold;
+	font-size:20px;
+	margin-top:10px;
+	}
+#map{
+	width:500px;
+	height:400px;
+	margin-left:200px;
+	}
+

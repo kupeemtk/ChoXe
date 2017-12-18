@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Error";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div id="content">
+    <div class="notify successbox" style="display: none">
+        <h1>Chúc mừng!</h1>
+        <div class="alerticon">
+            <img src="~/Assets/client/image/location.png"
+                 alt="checkmark" />
+        </div>
+        <p>Bạn đã đăng ký tài khoản thành công, bạn sẽ được chuyển đến trang chủ trong giây lát</p>
+        <p> Chuyển tới trang chủ ngay <a href="@Url.Action("Index","Home")">click vào đây</a> </p>
+    </div>
+    <div class="errorbox">
+        <h1>Xin lỗi</h1>
+        <div class="alerticon">
+            <span class="fa fa-frown-o"></span>
+        </div>
+        <p>@Html.Raw(ViewBag.errorMessage)</p>
+    </div>
+
+</div>

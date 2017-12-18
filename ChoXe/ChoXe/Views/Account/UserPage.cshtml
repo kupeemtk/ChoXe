@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewBag.Title = "UserPage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/Assets/client/css/user.css" />
+}
+ <!-- User Information -->
+<!--Tên user -->
+<div class="user">
+    <div class="username">
+        <p class="ten-user">Quỳnh Quỳnh</p>
+        <div class="search">
+            <input type="text" name="search" placeholder="Tìm người dùng...">
+        </div>
+    </div>
+    <!--Các tùy chọn user -->
+    <div class="option">
+        <div class="update">
+            <a href="update.html">Cập nhật</a>
+        </div>
+        <div class="setting">
+            <a href="setting.html">Chỉnh sửa</a>
+        </div>
+        <div class="delete">
+            <a href="delete.html">Xóa người dùng</a>
+        </div>
+    </div>
+    <!--Avatar, thông tin user - Lịch sử user -->
+    <div class="contain">
+        <div class="infor">
+            <div class="avatar">
+                <a href="#" class="changeAvatar"><img src="image/avt.jpg"></a>
+            </div>
+            <div class="information">
+                <p>EMAIL:    nttquynh@gmail.com</p>
+                <p>SĐT:    01234567890</p>
+                <p>ĐỊA CHỈ:    Đại học Nông Lâm TPHCM</p>
+                <p>GIỚI TÍNH:    Nữ</p>
+                <p>NGÀY SINH:    01/01/1996</p>
+                <p>TÌNH TRẠNG:    Đã đăng tin</p>
+            </div>
+        </div>
+        <div class="history">
+            <div class="name-history">
+                <p>LỊCH SỬ NGƯỜI DÙNG</p>
+            </div>
+            <div class="history-user">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>NGÀY ĐĂNG</th>
+                            <th>LOẠI TIN</th>
+                            <th>TÌNH TRẠNG</th>
+                            <th>NGƯỜI BÁN/THUÊ</th>
+                            <th>LƯỢT XEM</th>
+                            <th>CHI TIẾT</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>22/10/2017</td>
+                            <td>Bán</td>
+                            <td>Đã bán</td>
+                            <td><a href="userpage">Thế Tân</a></td>
+                            <td>2345</td>
+                            <td><a href="chitietsanpham.html">Xem bài đăng...</a></td>
+                        </tr>
+                        <tr>
+                            <td>22/11/2017</td>
+                            <td>Thuê</td>
+                            <td>Đã cho thuê</td>
+                            <td><a href="userpage">Hoài Phụng</a></td>
+                            <td>3456</td>
+                            <td><a href="chitietsanpham.html">Xem bài đăng...</a></td>
+                        </tr>
+                        <tr>
+                            <td>22/09/2017</td>
+                            <td>Bán</td>
+                            <td>Chưa được bán</td>
+                            <td>...</td>
+                            <td>6789</td>
+                            <td><a href="chitietsanpham.html">Xem bài đăng...</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- User Information end-->

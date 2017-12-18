@@ -1,0 +1,118 @@
+E:\TMDT\ChoXe\ChoXe\obj\Debug\ChoXe.csprojResolveAssemblyReference.cache
+E:\TMDT\ChoXe\ChoXe\obj\Debug\ChoXe.csproj.CoreCompileInputs.cache
+E:\TMDT\ChoXe\ChoXe\bin\ChoXe.dll.config
+E:\TMDT\ChoXe\ChoXe\bin\ChoXe.dll
+E:\TMDT\ChoXe\ChoXe\bin\ChoXe.pdb
+E:\TMDT\ChoXe\ChoXe\bin\EntityFramework.dll
+E:\TMDT\ChoXe\ChoXe\bin\EntityFramework.SqlServer.dll
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.AspNet.Identity.Core.dll
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.dll
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Host.HttpListener.dll
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Hosting.dll
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Security.Cookies.dll
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Security.dll
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Security.OAuth.dll
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Web.Infrastructure.dll
+E:\TMDT\ChoXe\ChoXe\bin\Newtonsoft.Json.dll
+E:\TMDT\ChoXe\ChoXe\bin\Owin.dll
+E:\TMDT\ChoXe\ChoXe\bin\System.Net.Http.Formatting.dll
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Helpers.dll
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Http.dll
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Http.Owin.dll
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Mvc.dll
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Razor.dll
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Webpages.Deployment.dll
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Webpages.dll
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Webpages.Razor.dll
+E:\TMDT\ChoXe\ChoXe\bin\EntityFramework.xml
+E:\TMDT\ChoXe\ChoXe\bin\EntityFramework.SqlServer.xml
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.AspNet.Identity.Core.xml
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.xml
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Host.HttpListener.xml
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Hosting.xml
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Security.xml
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Security.Cookies.xml
+E:\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Security.OAuth.xml
+E:\TMDT\ChoXe\ChoXe\bin\Newtonsoft.Json.xml
+E:\TMDT\ChoXe\ChoXe\bin\System.Net.Http.Formatting.xml
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Http.xml
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Http.Owin.xml
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Razor.xml
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Webpages.xml
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Webpages.Deployment.xml
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Webpages.Razor.xml
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Helpers.xml
+E:\TMDT\ChoXe\ChoXe\bin\System.Web.Mvc.xml
+E:\TMDT\ChoXe\ChoXe\obj\Debug\ChoXe.dll
+E:\TMDT\ChoXe\ChoXe\obj\Debug\ChoXe.pdb
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\ChoXe.dll.config
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\ChoXe.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\ChoXe.pdb
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\EntityFramework.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\EntityFramework.SqlServer.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.AspNet.Identity.Core.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Host.HttpListener.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Hosting.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Security.Cookies.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Security.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Security.OAuth.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Web.Infrastructure.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Newtonsoft.Json.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Owin.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Net.Http.Formatting.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Helpers.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Http.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Http.Owin.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Mvc.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Razor.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Webpages.Deployment.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Webpages.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Webpages.Razor.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\EntityFramework.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\EntityFramework.SqlServer.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.AspNet.Identity.Core.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Host.HttpListener.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Hosting.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Security.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Security.Cookies.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Microsoft.Owin.Security.OAuth.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Newtonsoft.Json.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Net.Http.Formatting.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Http.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Http.Owin.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Razor.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Webpages.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Webpages.Deployment.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Webpages.Razor.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Helpers.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Mvc.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\obj\Debug\ChoXe.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\obj\Debug\ChoXe.pdb
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\obj\Debug\ChoXe.csprojResolveAssemblyReference.cache
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Antlr3.Runtime.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\PagedList.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\PagedList.Mvc.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Optimization.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\WebGrease.dll
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\Antlr3.Runtime.pdb
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\PagedList.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\PagedList.Mvc.xml
+E:\HocTap\NĂM 4- HK I\THƯƠNG MẠI ĐIỆN TỬ - CÔ CHÂU\GithubClone\TMDT\ChoXe\ChoXe\bin\System.Web.Optimization.xml

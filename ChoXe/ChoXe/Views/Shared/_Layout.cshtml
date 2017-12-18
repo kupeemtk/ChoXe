@@ -1,0 +1,214 @@
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" type="text/css" href="~/Assets/client/css/style.css">
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Assets/client/font-awesome/css/font-awesome.min.css">
+    <script src="~/scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="~/Assets/client/image/favicon.io.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    @RenderSection("Styles", false)
+</head>
+<body>
+    <!-- Bắt đầu header -->
+    <div class="header">
+        <div class="row row-header">
+            <div class="col-md-2 col-header logo"><a href="@Url.Action("Index", "Home")">Chợ xe <i class=" fa fa-motorcycle"></i></a></div>
+            <div class="col-md-3 col-header search-bar" style="background-color: #80808024; padding-right: 0px;">
+                <div class="search-area">
+                    <span>
+                        <input id="search-textbox" type="text" placeholder="Tìm kiếm xe..." name="search-are">
+                        <button id="search-button"><i class="fa fa-search"></i></button>
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-2 col-header abc" style="background-color: #80808024;">
+                @if (Request.IsAuthenticated)
+                {
+                    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <p class="hello">Xin chào, @User.Identity.GetUserName() !</p>
+                        <ul class="nav navbar-nav navbar-right manage-user">
+                            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+                        </ul>
+                    }
+                }
+                else
+                {
+                    <ul class="formheader">
+                        <li>@Html.ActionLink("Đăng nhập", "Login", "Account", null, new {@class="register linkform", target="_blank"})</li>
+                        <span class="separate">|</span>
+                        <li>@Html.ActionLink("Đăng ký", "Register", "Account",null, new { @class = "register linkform" })</li>
+                    </ul>
+                }
+                <!--
+                <ul>
+                    <li class="login">
+                        <span class="login-span"><i class="fa fa-user"></i></span>
+
+                        <ul class="sub-login">
+                            <li><input type="text" placeholder="Tài khoản" name="username"></li>
+                            <li><input type="password" placeholder="Mật khẩu" name="password"></li>
+                            <li><input type="button" value="Đăng nhập" name="btn-login"></li>
+                            <li><a href="#" class="signup">Đăng ký</a></li>
+                            <li><a href="#">Quên mật khẩu</a></li>
+                        </ul>-->
+                        <!--start form đăng ký-->
+                <!--
+                        <ul class="sub-signup" style="overflow-y: scroll;">
+                            <h2>Đăng ký</h2>
+                            <li>
+                           </li>
+                            <li><input type="password" placeholder="Nhập mật khẩu" name="password-signup"></li>
+                            <li><input type="password" placeholder="Nhập lại mật khẩu" name="repassword-signup"></li>
+                            <li><input type="text" placeholder="Tên tài khoản" name="name"></li>
+                            <li><input type="text" placeholder="Số điện thoại" name="numberphone"></li>
+                            <li><input type="button" value="Đăng ký" name="btn-login"></li>
+                            <li><a class="cancle">Huỷ</a></li>
+                        </ul>
+                    -->
+                        <!--end form dang ky -->
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-md-2 col-header" style="background-color: #80808024;">
+                <ul>
+                    <li class="cart">
+                        <span class="span-cart"><i class="fa fa-shopping-cart"></i></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-header" style="background-color: #80808024;">
+                <ul>
+                    <li class="notification">
+                        <span class="span-noti"><i class="fa fa-bell-o"></i><a class="noti">1</a></span>
+                        <ul class="sub-noti" id="sub-noti">
+                            <h4>Notification</h4>
+                            <li>
+                                <div class="noti-content">
+                                    <div class="image-noti inline"><img src="~/Assets/client/image/gift.png"></div>
+                                    <div class="contents inline">
+                                        Hôm nay khuyễn mãi 50% các loại xe máy lưu thông trên không
+                                        nhân ngày black friday..
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="noti-content">
+                                    <div class="image-noti inline"><img src="~/Assets/client/image/gift.png"></div>
+                                    <div class="contents inline">
+                                        Chúc mừng quý khách là người thứ 1 tỉ tham gia app và
+                                        đã nhận được phần quà của Chợ xe, click để...
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-header toogle-btn" style="background-color: #80808024;">
+                <ul>
+                    <li class="parent-menu">
+                        <i class="fa fa-bars"></i>
+                        <ul class="sub-menu">
+                            <li><a href="">Mua/Thuê xe</a></li>
+                            <li><a href="car.html">Tin Hot trong ngày</a></li>
+                            <li><a href="car.html">Tin xem nhiều nhất</a></li>
+                            <li><a href="news.html">Tin mới nhất</a></li>
+                            <li><a href="contact.html">Liên hệ</a></li>
+                            <li><a href="#">Statistics</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cart-block-background">
+            <div class="cart-block">
+                <span class="closer">X</span>
+                <div class="cart-content">
+                    <span><i class="fa fa-shopping-cart empty"></i></span>
+                    <h2>Giỏ hàng của bạn đang trống</h2>
+                    <p>Nhanh tay sở hữu những chiếc xe bạn thích</p>
+                    <button class="go-on">Tiếp tục mua sắm <i class=" fa fa-motorcycle"></i> </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Kết Thúc Header -->
+    <!-- Category -->
+   @RenderBody()
+    <!-- Kết thúc Category -->
+   
+    <!-- Bắt đầu footer -->
+    <div class="footer">
+        <a>Liên hệ</a>
+        <a>Phản hồi</a>
+        <a>Tài khoản</a>
+        <a>Chợ xe &copy;Copyright 2017 - Beta version</a>
+    </div>
+    <!-- Kết Thúc footer -->
+    <!-- Javascript -->
+    <script type="text/javascript">
+        document.getElementById('search-textbox').addEventListener("click", function () {
+            document.getElementById('search-button').style.background = "blue";
+
+        });
+        window.addEventListener("click", function () {
+            if (!event.target.matches("search-textbox")) {
+                document.getElementById('search-button').style.background = "#d2d0ce8a";
+            }
+        });
+
+
+        $(document).ready(function () {
+            $('.span-cart').click(function () {
+                $('.cart-block-background').show();
+            });
+            $('.closer').click(function () {
+                $('.cart-block-background').hide();
+            });
+            $('.go-on').click(function () {
+                $('.cart-block-background').hide();
+            });
+        });
+        $(document).ready(function () {
+            $('.span-noti').click(function () {
+                $('.sub-noti').toggle(250);
+                $('.sub-login').hide(100);
+            });
+        });
+
+        $(document).ready(function () {
+            $('.fa-user').click(function () {
+                $('.sub-login').toggle(250);
+                $('.sub-noti').hide(100);
+            });
+        });
+        $(document).ready(function () {
+            $('.signup').click(function () {
+                $('.sub-signup').slideDown(100);
+                $('.sub-signup').css('overflow-y', 'scroll');
+            });
+            $('.cancle').click(function () {
+                $('.sub-signup').slideUp(100);
+            });
+        });
+        $('input[type="button"]').click(function () {
+            if ($('input[name="username"]').val() == "admin" && $('input[name="passworduser"]').val() == "admin") {
+                $('.login-span').append('<a href="admin/admin/WebContent/monan.html" class="admin-page "style="cursor:pointer;">Admin-page</a>');
+            };
+        })
+    </script>
+    <!-- Kết thúc javascript -->
+</body>
+</html>

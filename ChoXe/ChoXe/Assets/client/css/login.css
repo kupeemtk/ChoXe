@@ -1,0 +1,146 @@
+/*general css*/
+.wap{
+	width: 1000px;
+	margin: auto;
+}
+/*logo*/
+.logo{
+	padding: 22px 0;
+}
+.logo a img{
+	width: 132px;
+	height: 52px;
+}
+
+/*-------------------------------------------------------*/
+/*form login*/
+.lg-content{
+	background-color: #D8CBA8;
+
+}
+.bg{
+	background: url(../img/background-login.jpg) no-repeat;
+}
+.lg-background{
+	position: relative;
+	height: 310px;
+}
+.login{
+	background: #fff;
+    overflow: hidden;
+    position: absolute;
+    right: 35px;
+    top: 30px;
+    padding-top: 20px;
+    width: 342px;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.login li{
+	padding: 10px 30px;
+    line-height: 20px;
+    overflow: hidden;
+    zoom: 1;
+}
+.login .item{
+	position: relative;
+    height: 34px;
+}
+.login .item .username, .login .item .pass{
+	border: #d9d9d9 solid 1px;
+    width: 260px;
+    padding: 8px 10px;
+    color: #666;
+}
+.login .item input{
+	position: absolute;
+    top: 10px;
+    left: 30px;
+    z-index: 2;
+    z-index: 20000\9;
+    background: none;
+    color: #333;
+}
+.login input[type="checkbox"]{
+	float: left;
+	margin-top: 4px;
+	margin-right: 3px;
+}
+.login li a.forget{
+	color: #45B39D;
+}
+.login li a.forget:hover{
+	text-decoration: underline;
+}
+.login li a.login-btn{
+	display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #45B39D;
+    font-size: 14px;
+    text-decoration: none;
+}
+.login li a.register{
+	line-height: 40px;
+    color: #45B39D;
+}
+.login li a.register:hover{
+	text-decoration: underline;
+}
+.login li.lg-bottom{
+	background: #f5f5f5;
+    padding: 30px;
+    margin-top: 15px;
+    line-height: 32px;
+    font-size: 14px;
+}
+.login li.lg-bottom a{
+	width: 32px;
+    height: 32px;
+    overflow: hidden;
+    margin-left: 7px;
+    display: inline;
+   
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+}
+.login li.lg-bottom a.fb{
+	 background-color: #3D598A;
+}
+.login li.lg-bottom a.gg{
+	background-color: #DB4437;
+}
+.bottom-bar{
+	padding: 15px 0;
+    color: #9cc0a3;
+    text-align: center;
+    text-indent: -100px;
+}
+p.bottom-bar a{
+	color: #9cc0a3;
+}
+p.bottom-bar a:hover{
+	text-decoration: underline;
+}
+input.login-btn.left{
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #45B39D;
+    font-size: 14px;
+    text-decoration: none;
+    border:0;
+}
+.user-mess, .pass-mess{
+    color: #FBD6BC;
+    font-size: 16px;
+    margin-left: 30px;
+}
